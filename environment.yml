@@ -1,0 +1,24 @@
+name: unsloth
+channels:
+  - xformers
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11.10
+  - pytorch=2.4.1
+  - pytorch-cuda=12.1
+  - cudatoolkit=11.7.0
+  - xformers=0.0.28.post1
+  - huggingface_hub=0.25.2
+  - matplotlib=3.9.2
+  - pandas=2.2.3
+  - pip=24.2
+  - pip:
+      - unsloth==2024.10.2
+      - unsloth-zoo==2024.10.2
+      - trl==0.11.1
+      - peft==0.13.2
+      - accelerate==1.0.1
+      - bitsandbytes==0.44.1
+      - ipykernel==6.29.5
